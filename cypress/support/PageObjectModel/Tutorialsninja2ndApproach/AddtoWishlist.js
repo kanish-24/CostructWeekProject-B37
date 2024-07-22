@@ -10,20 +10,22 @@ class wishlist_po{
         cy.get('[data-original-title="Add to Wish List"]').click();
         
         // click on Wishlist icon in the header section to check whether the item is added or not
-        cy.get('.fa-heart').click()
+        cy.xpath('(//span[@class="hidden-xs hidden-sm hidden-md"])[4]').click({force: true});
     }
     addtowishlist2(){
         // search for Nikon camera
-        cy.get('[name="search"]').type('Nikon','{enter}');
+        cy.get('[name="search"]').type('Nikon')
+        // click on search icon
+        cy.get('.fa-search').click({force:true});
 
         // click on product image
-        cy.get('[alt="Nikon D300"]').click();
+        cy.contains('Nikon D300').click({force:true});
 
         // once the product details page is loaded click on wishlist icon to add the item
         cy.get('[data-original-title="Add to Wish List"]').click()
 
         // click on Wishlist icon in the header section to check whether the item is added or not
-        cy.get('.fa-heart').click()
+        cy.xpath('(//span[@class="hidden-xs hidden-sm hidden-md"])[4]').click({force: true});
 
     }
 }
