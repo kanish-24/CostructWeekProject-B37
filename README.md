@@ -4,8 +4,22 @@
 AUT - https://tutorialsninja.com/demo/
 The provided link leads to a demo version of OpenCart, an open-source e-commerce platform that allows users to set up an online store and manage their products, customers, orders, and more. The demo website showcases the standard features of OpenCart and gives an overview of how a typical online store built with OpenCart would function.
 
-## Introduction
+## Objective
+
+Enter the URL : https://tutorialsninja.com/demo/ 
+Login and register manually into the application first
+
 To build a cypress script that automates the following process in the given URL.
+1. Click on 'Forgotten Password' link from Login page
+2. Enter the email address of an existing account for which you have forgot the password 
+3. Click on 'Continue' button 
+4. Check the registered email address for which the password got reset (Validate ER-3)
+5. Click on the link for resetting the password from the received email body (Validate ER-4)
+6. Enter new password into the 'Password' and 'Confirm' fields
+7. Click on 'Continue' button 
+8. Enter the email address into the E-Mail address field and the new resetted password into the 'Password' field 
+9. Click on 'Login' button  
+
 
 ## Pre-requisites
 Students should have a basic understanding of:
