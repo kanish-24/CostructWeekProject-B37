@@ -1,21 +1,23 @@
 # CostructWeekProject-B37
 
-## Introduction
-A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+Brief Description of the Demo E-commerce Website:
+AUT - https://tutorialsninja.com/demo/
+The provided link leads to a demo version of OpenCart, an open-source e-commerce platform that allows users to set up an online store and manage their products, customers, orders, and more. The demo website showcases the standard features of OpenCart and gives an overview of how a typical online store built with OpenCart would function.
+Objective: To evaluate the functionality, performance and usability of the given feature of the OpenCart demo e-commerce website.
 
 ## Project Type
 Software Testing - |Manual Testing | Automation Testing
 
-## Deployed App
-Frontend: https://deployed-site.whatever
-Backend: https://deployed-site.whatever
-Database: https://deployed-site.whatever
+## Deployed software
+Cypress automation tool
 
 ## Directory Structure
-my-app/
-├─ backend/
-├─ frontend/
+Cypress/
+├─ Integration/
+├─ ChangePassword/
+├─ Register&Login/
 │  ├─ ...
+
 
 ## Video Walkthrough of the project
 Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
